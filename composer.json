@@ -1,24 +1,24 @@
 {
-	"name": "yourname/flarum-lang-xxish",
+	"name": "neerugupta/flarum-lang-arabic",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-xxish",
+	"description": "Arabic language pack for Flarum.",
+	"homepage": "https://github.com/yourname/flarum-lang-arabic",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"ar-locale"
 	],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
+			"name": "Neeru Gupta",
+			"email": "neeru.gupta@yahoo.com",
+			"homepage": "https://neerugupta.com/"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/yourname/flarum-lang-xxish/issues",
-		"source": "https://github.com/yourname/flarum-lang-xxish"
+		"issues": "https://github.com/yourname/flarum-lang-arabic/issues",
+		"source": "https://github.com/yourname/flarum-lang-arabic"
 	},
 	"require": {
 		"flarum/core": "^1.0"
@@ -27,7 +27,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Arabic",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
@@ -35,8 +35,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "ar",
+			"title": "Arabic"
 		},
 		"extiverse": {
 			"discuss": ""
