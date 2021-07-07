@@ -1,7 +1,3 @@
-**This is template for Flarum language pack. If you want to use it, follow [these instructions](https://github.com/rob006-software/flarum-lang-template/wiki).**
-
----------
-
 # Arabic language pack for [Flarum](https://flarum.org/)
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/yourname/flarum-lang-arabic?color=success&label=stable)](https://packagist.org/packages/yourname/flarum-lang-arabic) 
