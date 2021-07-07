@@ -46,24 +46,40 @@ php flarum cache:clear
 ## Translation status for official extensions
 
 <!-- flarum-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
 <!-- flarum-extensions-list-stop -->
 
 
 ## Translation status for Friends of Flarum extensions
 
 <!-- fof-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
 <!-- fof-extensions-list-stop -->
 
 
 ## Translation status for community extensions
 
 <!-- various-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
 <!-- various-extensions-list-stop -->
 
 
 ## Translation status for premium extensions
 
 <!-- premium-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
 <!-- premium-extensions-list-stop -->
 
 
