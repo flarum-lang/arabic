@@ -7,7 +7,56 @@ core:
     appearance:
       colored_header_label: 'ترويسة ملونة'
       colors_heading: الألوان
+      colors_text: 'اختر لونين أساسيين لاستايل منتداك ، الأول سيكون لون النصوص والثانى لون الخلفي.'
+      custom_footer_heading: 'تذييل مخصص'
+      custom_footer_text: '=> core.ref.custom_footer_text'
+      custom_header_heading: 'رأس مخصص'
+      custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_heading: 'استايلات مخصصة'
+      custom_styles_text: 'قم بتخصيص منتداك عن طريق اضافة ملفات CSS/LESS خاصة ليتم تطبيقها على استايل فلارم الافتراضى.'
       dark_mode_label: 'الوضع المظلم'
+    basics:
+      forum_title_heading: 'عنوان المنتدى'
+      home_page_heading: 'الصفحة الرئيسية'
+    extension:
+      info_links:
+        documentation: توثيق
+        donate: يتبرع
+        source: مصدر
+        support: الدعم
+        website: 'موقع الكتروني'
+      no_permissions: 'هذا الامتداد ليس لديه أذونات.'
+      no_settings: 'هذا الامتداد ليس له إعدادات.'
+      permissions_title: أذونات
+      uninstall_button: ازالة
+    loading:
+      title: 'أرجو الإنتظار...'
+    nav:
+      appearance_button: '=> core.admin.appearance.title'
+      appearance_title: '=> core.admin.appearance.description'
+      basics_button: '=> core.admin.basics.title'
+      basics_title: '=> core.admin.basics.description'
+      categories:
+        authentication: المصادقة
+        core: 'التكوين الأساسي'
+        discussion: مناقشة
+        feature: سمات
+        formatting: تنسيق
+        language: اللغات
+        moderation: الاعتدال
+        other: 'ملحقات أخرى'
+        theme: ثيمات
+      dashboard_button: '=> core.admin.dashboard.title'
+      dashboard_title: '=> core.admin.dashboard.description'
+      email_button: '=> core.ref.email'
+      email_title: '=> core.admin.email.description'
+      permissions_button: '=> core.admin.permissions.title'
+      permissions_title: '=> core.admin.permissions.description'
+      search_placeholder: 'امتدادات البحث'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
+    permissions_controls:
+      signup_open_button: فتح
   group:
     admin: مدير
     admins: مديرين
