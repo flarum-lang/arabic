@@ -15,10 +15,47 @@ core:
       custom_styles_heading: 'استايلات مخصصة'
       custom_styles_text: 'قم بتخصيص منتداك عن طريق اضافة ملفات CSS/LESS خاصة ليتم تطبيقها على استايل فلارم الافتراضى.'
       dark_mode_label: 'الوضع المظلم'
+      edit_footer_button: '=> core.ref.custom_footer_title'
+      edit_header_button: '=> core.ref.custom_header_title'
+      favicon_heading: فافيكون
+      logo_heading: شعار
+      title: المظهر
     basics:
+      all_discussions_label: '=> core.ref.all_discussions'
+      default_language_heading: 'اللغة الافتراضية'
+      display_name_heading: '‏‏اسم العرض للمستخدم'
       forum_title_heading: 'عنوان المنتدى'
       home_page_heading: 'الصفحة الرئيسية'
+      welcome_banner_heading: 'بانر ترحيبى'
+    dashboard:
+      title: 'لوحة المعلومات'
+      tools_button: أدوات
+    edit_group:
+      delete_button: 'حذف مجموعة'
+      delete_confirmation: 'هل أنت متأكد من حذف هذه المجموعة ؟ اعضاء المجموعة لن يتم حذفهم.'
+      plural_placeholder: 'الجمع (مثال مشرفين)'
+      title: 'إنشاء مجموعة'
+    edit_header:
+      customize_text: '=> core.ref.custom_header_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
+    email:
+      addresses_heading: العناوين
+      from_label: ‏‏المرسل
+      mail_encryption_label: التشفير
+      mail_host_label: مضيف
+      mail_mailgun_domain_label: ‏‏مجال
+      mail_mailgun_region_label: المنطقة
+      mail_mailgun_secret_label: 'المفتاح السري'
+      mail_password_label: '=> core.ref.password'
+      mail_port_label: المنفذ
+      mail_username_label: '=> core.ref.username'
+      send_test_mail_button: إرسال
+      send_test_mail_heading: 'إرسال بريد إلكتروني كاختبار'
+      smtp_heading: 'SMTP إعدادات'
+      title: '=> core.ref.email'
     extension:
+      disabled: مُعطل
       info_links:
         documentation: توثيق
         donate: يتبرع
@@ -57,6 +94,30 @@ core:
       userlist_title: '=> core.admin.users.description'
     permissions_controls:
       signup_open_button: فتح
+  forum:
+    index_sort:
+      latest_button: الاخير
+      newest_button: الاحدث
+      oldest_button: الاقدم
+      relevance_button: 'ذات صلة'
+      top_button: اعلى
+    log_in:
+      forgot_password_link: 'نسيت كلمة السر ؟'
+      invalid_login_message: 'معلومات تسجيل دخولك غير صحيحة.'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: 'تذكر بياناتي'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: 'اسم المتخدم او البريد الالكترونى'
+    notifications:
+      empty_text: 'لا توجد إعلامات'
+      mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      mark_as_read_tooltip: 'وضع علامة كمقروء'
+      title: '=> core.ref.notifications'
+      toggle_dropdown_accessible_label: 'عرض الإخطارات'
+      tooltip: '=> core.ref.notifications'
+    post:
+      edited_text: 'تم التحرير'
   group:
     admin: مدير
     admins: مديرين
