@@ -100,6 +100,9 @@ core:
       search_placeholder: 'امتدادات البحث'
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
+    permissions:
+      sign_up_label: 'تسجيل حساب'
+      start_discussions_label: 'موضوع جديد'
     permissions_controls:
       signup_open_button: فتح
   forum:
@@ -126,6 +129,8 @@ core:
       tooltip: '=> core.ref.notifications'
     post:
       edited_text: 'تم التحرير'
+    user_email_confirmation:
+      sent_message: إرسال
   group:
     admin: مدير
     admins: مديرين
