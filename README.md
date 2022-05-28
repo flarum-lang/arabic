@@ -49,6 +49,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`flarum/nicknames`](https://github.com/flarum/nicknames) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-nicknames/ar/) |
 
 <!-- flarum-extensions-list-stop -->
 
