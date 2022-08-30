@@ -1,8 +1,8 @@
 {
-	"name": "neerugupta/flarum-lang-arabic",
+	"name": "flarum-lang/arabic",
 	"type": "flarum-extension",
 	"description": "Arabic language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-arabic",
+	"homepage": "https://github.com/flarum-lang/arabic",
 	"keywords": [
 		"locale",
 		"flarum",
@@ -17,11 +17,11 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/neerugupta/flarum-lang-arabic/issues",
-		"source": "https://github.com/neerugupta/flarum-lang-arabic"
+		"issues": "https://github.com/flarum-lang/arabic/issues",
+		"source": "https://github.com/flarum-lang/arabic"
 	},
 	"require": {
-		"flarum/core": "^1.0"
+		"flarum/core": "^1.3"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
