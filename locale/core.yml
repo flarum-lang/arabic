@@ -73,7 +73,6 @@ core:
       no_permissions: 'هذا الامتداد ليس لديه أذونات.'
       no_settings: 'هذا الامتداد ليس له إعدادات.'
       permissions_title: أذونات
-      uninstall_button: ازالة
     loading:
       title: 'أرجو الإنتظار...'
     nav:
