@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+0.1.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [v0.1.1...v0.1.2](https://github.com/flarum-lang/arabic/compare/v0.1.1...v0.1.2).
+
+
 0.1.1 (2022-08-29)
 ------------------
 
