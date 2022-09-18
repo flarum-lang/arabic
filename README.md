@@ -93,7 +93,6 @@ php flarum cache:clear
 | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/askvortsov-rich-text/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text/ar/) |
 | [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/blomstra-flag-duplicates/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-flag-duplicates/ar/) |
 | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/blomstra-mark-unread/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/ar/) |
-| [`blomstra/notification-deleter`](https://github.com/blomstra/flarum-ext-notification-deleter) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/blomstra-notification-deleter/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-notification-deleter/ar/) |
 
 <!-- various-extensions-list-stop -->
 
