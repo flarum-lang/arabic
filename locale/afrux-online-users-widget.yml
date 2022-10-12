@@ -5,4 +5,8 @@
 afrux-online-users-widget:
   admin:
     settings:
-      max_users: 'العدد الأقصى من المستخدِمين للعرض'
+      max_users: 'الحدّ الأقصى لعدد الأعضاء لإظهارهم'
+  forum:
+    widget:
+      empty: 'لا يوجد أعضاء متصلون حاليا.'
+      title: 'الأعضاء المتّصلون'
