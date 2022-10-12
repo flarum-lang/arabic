@@ -47,6 +47,9 @@ core:
       description: 'المنتدى الخاص بك في لمحة.'
       title: 'لوحة المعلومات'
       tools_button: أدوات
+    debug-warning:
+      detail: "عندما يكون وضع <code>التّصحيح</code> نشطًا، سيعيد فلاروم إنشاء أصول <code>JavaScript</code> و<code>CSS</code> الخاصّة به عند كل طلب، ويمكن أيضًا أن يؤدّي إلى تسريب معلومات أخرى، مثل أسرار قاعدة البيانات، ومتغيّرات البيئة، وما إلى ذلك.\n\nيوصَى بشدّة بتعطيل <code>التصحيح</code> في ملف <code>config.php</code> في الإنتاج. انظر <link>مستندات فلاروم</link> لمزيد من المعلومات.\n"
+      label: 'وضعُ التّصحيح نشطٌ'
     edit_css:
       customize_text: 'قم بتخصيص مظهر المنتدى الخاص بك عن طريق إضافة رمز Less / CSS الخاص بك ليتم تطبيقه أعلى <a>الأنماط الافتراضيّة</a> لفلاروم.'
       title: 'تحرير CSS مخصص'
@@ -76,11 +79,18 @@ core:
       not_sending_message: 'لا يرسل فلاروم حاليًا رسائل بريد إلكتروني. يمكن أن يكون هذا بسبب برنامج التشغيل المحدد، أو أخطاء في تكوينه.'
       send_test_mail_button: إرسال
       send_test_mail_heading: 'إرسال بريد إلكتروني كاختبار'
+      send_test_mail_success: 'تمّ إرسال البريد الإلكتروني التّجريبي بنجاح !'
+      send_test_mail_text: 'سيؤدي هذا إلى إرسال بريد إلكتروني باستخدام التكوين أعلاه إلى بريدك الإلكتروني، {email}.'
       smtp_heading: 'SMTP إعدادات'
       title: '=> core.ref.email'
     extension:
+      configure_scopes: 'تكوين النّطاقات'
+      confirm_purge: 'ستؤدّي عمليّة التّطهير إلى إزالة جميع إدخالات قاعدة البيانات والأصول المتعلّقة بالامتداد. لن يتم إلغاء تثبيت الامتداد؛ يجب أن يتم ذلك عبر كومبوسر. هل أنت متأكد أنك تريد الاستمرار؟'
       disabled: مُعطل
+      enable_to_see: 'قم بتمكين الإضافة لعرض الإعدادات وتغييرها.'
+      enabled: مُمَكَّن
       info_links:
+        discuss: مناقشات
         documentation: توثيق
         donate: يتبرع
         source: مصدر
@@ -88,7 +98,15 @@ core:
         website: 'موقع الكتروني'
       no_permissions: 'هذا الامتداد ليس لديه أذونات.'
       no_settings: 'هذا الامتداد ليس له إعدادات.'
+      open_modal: 'فتح الإعدادات'
       permissions_title: أذونات
+      purge_button: تطهير
+      readme:
+        button_label: اقرأنِي
+        no_readme: 'يبدو أن هذه الإضافة ليس لها ملفّ (اقرأني)'
+        title: 'مستندات {extName}'
+    header:
+      get_help: 'احصل(ي) على المساعدة'
     loading:
       title: 'أرجو الإنتظار...'
     nav:
@@ -116,26 +134,146 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
-      sign_up_label: 'تسجيل حساب'
-      start_discussions_label: 'موضوع جديد'
+      allow_post_editing_label: 'السّماح بتعديل المنشور'
+      allow_renaming_label: 'السّماح بتعديل العنوان'
+      create_heading: إنشاء
+      delete_discussions_forever_label: 'حذف المناقشات بشكل نهائيّ'
+      delete_discussions_label: 'حَذف المناقشات'
+      delete_posts_forever_label: 'حذف المشاركات بشكل نهائيّ'
+      delete_posts_label: 'حذف المشاركات'
+      description: 'تحديد من يستطيع أن يرى/يفعل ماذا.'
+      edit_posts_label: 'تعديل المشاركات'
+      edit_users_credentials_label: 'تعديل بيانات اعتماد المستخدِم'
+      edit_users_groups_label: 'تعديل مجموعات المستخدِمين'
+      edit_users_label: 'تعديل سمات المستخدِم'
+      global_heading: عامّ
+      moderate_heading: الإشراف
+      new_group_button: 'مجموعة جديدة'
+      participate_heading: المشاركة
+      post_without_throttle_label: 'الرّدّ عدّة مرّات دون انتظار'
+      read_heading: القراءة
+      rename_discussions_label: 'إعادة تسمية المناقشات'
+      reply_to_discussions_label: 'الرد على المناقشات'
+      search_users_label: 'البحث في الأعضاء'
+      sign_up_label: التّسجيل
+      start_discussions_label: 'إنشاء المناقشات'
+      title: الأذونات
+      view_forum_label: 'عرض المنتدى (المناقشات والمستخدمون)'
+      view_hidden_groups_label: 'عرض شارات المجموعات المخفيّة'
+      view_last_seen_at_label: 'دائما عرض آخر مرّة شُوهِد فيها المستخدم نشطا'
+      view_post_ips_label: 'عرض عناوين IP للمنشور'
     permissions_controls:
+      allow_indefinitely_button: 'إلى أجل غير مسمّى'
+      allow_some_minutes_button: '{count, plural, one {لمدّة# دقيقة} other {لمدّة# من الدّقائق}}'
+      allow_ten_minutes_button: 'لمدة 10 دقائق'
+      allow_until_reply_button: 'حتّى الرّدّ التّالي'
+      everyone_button: الجميع
+      signup_closed_button: مُغلق
       signup_open_button: فتح
+    settings:
+      saved_message: 'تم حفظ التغييرات الخاصة بك.'
+    upload_image:
+      upload_button: 'اختيار صورة ...'
+    users:
+      description: 'قائمة مرقّمة الصّفحات لجميع المستخدمين في المنتدى الخاصّ بك.'
+      grid:
+        columns:
+          edit_user:
+            tooltip: 'تعديل {username}'
+          email:
+            visibility_hide: 'إخفاء عنوان البريد الإلكتروني'
+            visibility_show: 'إظهار عنوان البريد الإلكتروني'
+          group_badges:
+            no_badges: 'لا توجد'
+            title: المجموعات
+          join_time:
+            title: انضمّ
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: 'زيارة ملف {username} الشّخصيّ'
+        invalid_column_content: 'غير صالح'
+      pagination:
+        back_button: 'الصّفحة السّابقة'
+        next_button: 'الصّفحة التّالية'
+        page_counter: 'الصّفحة {current} مِن أصل {total}'
+      total_users: 'إجمالي المستخدمين: {count}'
   forum:
+    change_email:
+      incorrect_password_message: 'كلمة المرور التي قمت بإدخالها غير صحيحة.'
+    change_password:
+      send_button: 'إرسال بريد إلكتروني لإعادة تعيين كلمة المرور'
+      text: 'انقر فوق الزر أدناه وستتوصّل برسالة عبر البريد الإلكتروني تضمّ رابطا يُمكّنك من إعادة تعيين كلمة مرورك.'
+    composer:
+      close_tooltip: إغلاق
+      exit_full_screen_tooltip: 'الخروج من وضع ملء الشّاشة'
+      full_screen_tooltip: 'ملء الشّاشة'
+      minimize_tooltip: تصغير
+      preview_tooltip: معايَنة
+    composer_discussion:
+      body_placeholder: 'كتابة مشاركة ...'
+      discard_confirmation: 'لم يتمّ نشر مناقشتك بعدُ. هل تريد(ين) التّخلّص منها فعلا؟'
+      submit_button: 'نشر المناقشة'
+      title_placeholder: 'عنوان المناقشة'
+    composer_edit:
+      discard_confirmation: 'لم يتمّ نشر مناقشتك بعد. هل حقّ تريد(ين) التّخلّص منها؟'
+      edited_message: 'تمّ التّعديل الخاصّ بك بنجاح.'
+      post_link: 'المنشور {number} من {discussion}'
+    composer_reply:
+      discard_confirmation: 'لم يتمّ نشر ردّك بعدُ. هل ترغب(ين) حقّا في التّخلّص منه؟'
+      posted_message: 'تمّ نشر ردّك بنجاح.'
+      submit_button: 'كتابة ردّ'
+    discussion_controls:
+      cannot_reply_button: 'لا يُمكنك الرّدّ'
+      cannot_reply_text: 'ليس لديك إذن من إدارة المنتدى للرد على هذه المناقشة.'
+      delete_confirmation: 'هل أنت متأكّد أنّك تريد حذف هذه المناقشة؟'
+      log_in_to_reply_button: 'يجب تسجيل الدّخول للتّمكّن من الرّدّ'
+      toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة لإجراءات المناقشة'
+    discussion_list:
+      empty_text: 'يبدو أنه لا توجد مناقشات هنا في الوقت الحالي.'
+      replied_text: '{username} ردّ(ت) {ago}'
+      started_text: '{username} أنشأ(ت) {ago}'
+      total_replies_a11y_label: '{count, plural, one {# ردّ} other {# ردود}}'
+      unread_replies_a11y_label: '{count, plural, one {# ردّ غير مقروء} other {# ردود غير مقروءة}}. تحديد كغير مقروءة {count, plural, one {ردّ} other {ردود}} كمقروءة.'
+    forgot_password:
+      email_sent_message: 'لقد أرسلنا إليك بريدًا إلكترونيًّا يحتوي على رابط لإعادة تعيين كلمة المرور الخاصّة بك. تحقّق(ي) من مجلّد البريد العشوائي أيضا إذا لم يصلك خلال الدّقيقة أو الدّقيقتين التّاليتين.'
+      not_found_message: 'لا يوجد أيّ عضو مسجّل بعنوان البريد الإلكتروني هذا.'
+      submit_button: 'إستعادة كلمة المرور'
+      text: 'أدخل(ي) عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصّة بك.'
+      title: 'هل نسيت كلمة المرور ؟'
+    header:
+      admin_button: الإدارة
+      back_to_index_tooltip: 'العودة إلى قائمة المناقشات'
+      profile_button: 'الملفّ الشّخصيّ'
+      search_clear_button_accessible_label: 'مسح عبارة البحث'
+      search_placeholder: 'البحث في المنتدى'
+      search_role_label: 'البحث في المنتدى'
+      session_dropdown_accessible_label: 'تبديل القائمة المنسدلة لخيارات الجلسة'
+    index:
+      cannot_start_discussion_button: 'لا يُمكنك بدء مناقشة'
+      mark_all_as_read_confirmation: 'هل أنت متأكّد(ة) من وضع علامة "مقروءة" على كافّة المناقشات؟'
+      refresh_tooltip: 'إعادة التّحميل'
+      toggle_sidenav_dropdown_accessible_label: 'تبديل قائمة التّنقّل المنسدلة'
     index_sort:
       latest_button: الاخير
       newest_button: الاحدث
       oldest_button: الاقدم
       relevance_button: 'ذات صلة'
+      toggle_dropdown_accessible_label: 'تغيير فرز قائمة المناقشات'
       top_button: اعلى
     log_in:
       forgot_password_link: 'نسيت كلمة السر ؟'
       invalid_login_message: 'معلومات تسجيل دخولك غير صحيحة.'
       password_placeholder: '=> core.ref.password'
       remember_me_label: 'تذكر بياناتي'
+      sign_up_text: 'أليس لديك حساب؟ <a>الإشتراك!</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'اسم المتخدم او البريد الالكترونى'
     notifications:
+      delete_all_confirm: 'هل أنت متأكد(ة) أنك تريد(ين) حذف جميع الإشعارات؟ هذا إجراء لا يمكن التراجع عنه'
+      delete_all_tooltip: 'حذف جميع الإشعارات'
+      discussion_renamed_text: '{username} غيّر(ت) العنوان'
       empty_text: 'لا توجد إعلامات'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'وضع علامة كمقروء'
@@ -144,8 +282,51 @@ core:
       tooltip: '=> core.ref.notifications'
     post:
       edited_text: 'تم التحرير'
+      edited_tooltip: '{username} عدّل(ت) {ago}'
+      number_tooltip: 'منشور رقم {number}'
+    post_controls:
+      delete_confirmation: 'هل أنت متأكد(ة) أنك تريد(ين) حذف هذا المنشور إلى الأبد؟ لن يُمكنك التراجع عن هذا الإجراء.'
+      hide_confirmation: 'هل أنت متأكّد(ة) أنك تريد(ين) حذف هذه المشاركة؟'
+    post_scrubber:
+      now_link: الآن
+      original_post_link: 'المنشور الأساسي'
+      unread_text: '{count} غير مقروءة'
+      viewing_text: '{count, plural, one {{index} من {formattedCount} منشور} other {{index} من {formattedCount} منشورات}}'
+    post_stream:
+      discussion_renamed_old_tooltip: 'كان العنوان القديم: "{old}"'
+      discussion_renamed_text: 'تمّ تغيير العنوان من طرف {username} إلى {new}.'
+      time_lapsed_text: '{period} لاحقا'
+    rename_discussion:
+      title: 'إعادة تسمية المناقشة'
+    search:
+      all_discussions_button: 'البحث عن "{query}" في جميع المناقشات'
+    settings:
+      account_heading: الحساب
+      notification_checkbox_a11y_label_template: 'تلقّي إشعارات "{description}" عبر {method}'
+      notify_by_web_heading: الويب
+      notify_discussion_renamed_label: 'قام شخص بإعادة تسمية المناقشة التي بدأتها'
+      privacy_disclose_online_label: 'السّماح للآخرين بمعرفة ما إذا كنت متّصلاً'
+      privacy_heading: الخصوصيّة
+    sign_up:
+      log_in_text: 'هل لديك حساب بالفعل؟ <a>تسجيل الدّخول</a>'
+      welcome_text: 'أهلا ومرحبا بك {username}!'
+    user:
+      avatar_upload_button: تحميل
+      avatar_upload_tooltip: 'تحميل صورة رمزيّة جديدة'
+      in_discussion_text: 'في {discussion}'
+      joined_date_text: 'انضمّ(ت) {ago}'
+      online_text: متّصل
+      posts_empty_text: 'يبدو أنّه لا توجد مشاركات هنا.'
+    user_controls:
+      delete_confirmation: 'هل أنت متأكّد(ة) أنّك تريد(ين) حذف هذا المستخدم؟ لن يتمّ حذف مشاركات المستخدم.'
+      delete_error_message: 'إجراء حذف العضو <i>{username} ({email})</i> قد فشل'
+      delete_success_message: 'تمّ حذف العضو <i>{username} ({email})</i> بنجاح!'
+      toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة عناصر تحكّم المستخدم'
     user_email_confirmation:
-      sent_message: إرسال
+      resend_button: 'إعادة إرسال البريد الإلكتروني للتّأكيد'
+      sent_message: 'تمّ الإرسال'
+    welcome_hero:
+      hide: 'إخفاء الرّسالة التّرحيبيّة'
   group:
     admin: مدير
     admins: مديرين
@@ -155,6 +336,29 @@ core:
     members: أعضاء
     mod: مشرف
     mods: مشرفين
+  lib:
+    alert:
+      dismiss_a11y_label: 'تجاهل التّنبيه'
+    badge:
+      hidden_tooltip: مخفيّ
+    debug_button: التّصحيح
+    dropdown:
+      toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة'
+    edit_user:
+      activate_button: 'تفعيل عضويّة العضو'
+      groups_heading: المجموعات
+      nothing_available: 'ليس لديك إذن من الإدارة لتحرير هذا العضو.'
+      set_password_label: 'إنشاء كلمة مرور جديدة'
+    error:
+      dependent_extensions_message: 'لا يُمكن تعطيل {extension} حتى يتمّ تعطيل الملحقات التّالية: {extensions}'
+      extension_initialiation_failed_message: 'فشل تهيئة {extension}، تحقّق من وحدة تحكّم المتصفّح للحصول على مزيد من المعلومات.'
+      generic_message: 'أُووبس! هناك خطأ ما. يرجى إعادة تحميل الصّفحة والمحاولة مرّة أخرى.'
+      missing_dependencies_message: 'لا يُمكن تمكين {extension} حتى يتمّ تمكين التّبعات التّالية: {extensions}'
+      not_found_message: 'لم يتمّ العثور على المورد المطلوب.'
+      payload_too_large_message: 'حمولة الطّلب كانت كبيرة جدًا.'
+      permission_denied_message: 'ليس لديك إذن من الإدارة للقيام بذلك.'
+      rate_limit_exceeded_message: 'أنت تسير بسرعة كبيرة قليلا. يرجى المحاولة مرّة أخرى بعد بضع ثوان.'
+      render_failed_message: 'عذرا، لقد واجهنا خطأ أثناء عرض هذا المحتوى. إذا كنت مستخدِما، يرجى المحاولة مرّة أخرى في وقت لاحق. إذا كنت مسؤولاً، فألق نظرة على ملفات سجل فلاروم للحصول على مزيد من المعلومات.'
   ref:
     log_in: دخول
     log_out: خروج
