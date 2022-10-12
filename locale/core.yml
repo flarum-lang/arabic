@@ -359,6 +359,8 @@ core:
       permission_denied_message: 'ليس لديك إذن من الإدارة للقيام بذلك.'
       rate_limit_exceeded_message: 'أنت تسير بسرعة كبيرة قليلا. يرجى المحاولة مرّة أخرى بعد بضع ثوان.'
       render_failed_message: 'عذرا، لقد واجهنا خطأ أثناء عرض هذا المحتوى. إذا كنت مستخدِما، يرجى المحاولة مرّة أخرى في وقت لاحق. إذا كنت مسؤولاً، فألق نظرة على ملفات سجل فلاروم للحصول على مزيد من المعلومات.'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} أخرى {{pageTitle}: الصّفحة # - {forumName}}}'
   ref:
     log_in: دخول
     log_out: خروج
