@@ -10,6 +10,11 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Added support for new extensions**:
+
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
 All changes: [v0.2.0...v0.2.1](https://github.com/flarum-lang/arabic/compare/v0.2.0...v0.2.1).
 
 
