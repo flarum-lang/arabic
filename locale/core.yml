@@ -198,6 +198,20 @@ core:
         next_button: 'الصّفحة التّالية'
         page_counter: 'الصّفحة {current} مِن أصل {total}'
       total_users: 'إجمالي المستخدمين: {count}'
+  api:
+    invalid_username_message: 'لا يجوز أن يحتوي اسم المستخدم إلا على أحرف وأرقام وشرطات.'
+  email:
+    activate_account:
+      body: "مرحبا {username} ! \n \nقام شخص ما (نرجو أن تكون أنت) بالتّسجيل في {forum} بعنوان البريد الإلكتروني هذا. \n \nإذا كان هذا أنت، فما عليك سوى النّقر فوق الارتباط الآتي وسيتمّ تنشيط حسابك: \n{url} \n \nإذا لم يكن هذا أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
+      subject: 'تفعيل حسابك الجديد'
+    confirm_email:
+      body: "مرحبا {username} ! \n \nقام شخص ما (نرجو أن تكون أنت) بتغيير عنوان البريد الإلكتروني في {forum} بعنوان البريد الإلكتروني هذا. \n \nإذا كان هذا أنت، فما عليك سوى النّقر فوق الارتباط الآتي وسيتمّ تأكيد عنوان البريد الإلكتروني الخاصّ بك: \n{url} \n \nإذا لم يكن هذا أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
+      subject: 'يجب تأكيد عنوان بريدك الإلكتروني الجديد'
+    reset_password:
+      body: "مرحبا {username} ! \n \nقام شخص ما (نرجو أن تكون انت) بإرسال طلب لتغيير كلمة المرور لحسابك على {forum}. \n \nإذا كان هذا أنت، فما عليك سوى النقر فوق الارتباط التالي وسيتم إعادة تعيين كلمة المرور الخاصّة بك: \n{url} \n \nإذا كنت لا ترغب(ين) في تغيير كلمة المرور الخاصة بك، فما عليك إلا تجاهل هذا البريد الإلكتروني ولن يحدث شيء.\n"
+    send_test:
+      body: "مرحبا {username} ! \n \nهذا بريد إلكتروني تجريبي للتأكد من أن إعدادات فلاروم تعمل بشكل صحيح. \n \nإذا كنت أنت، فهذا البريد الإلكتروني يعني أن الإعداد الخاص بك يعمل بنجاح. \n \nإذا لم تكن أنت، يرجى تجاهل هذا البريد الإلكتروني.\n"
+      subject: 'اختبار البريد الإلكتروني الخاص بفلاروم'
   forum:
     change_email:
       incorrect_password_message: 'كلمة المرور التي قمت بإدخالها غير صحيحة.'
@@ -240,7 +254,7 @@ core:
       not_found_message: 'لا يوجد أيّ عضو مسجّل بعنوان البريد الإلكتروني هذا.'
       submit_button: 'إستعادة كلمة المرور'
       text: 'أدخل(ي) عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصّة بك.'
-      title: 'هل نسيت كلمة المرور ؟'
+      title: 'هل نسيت كلمة المرور؟'
     header:
       admin_button: الإدارة
       back_to_index_tooltip: 'العودة إلى قائمة المناقشات'
@@ -320,7 +334,7 @@ core:
     user_controls:
       delete_confirmation: 'هل أنت متأكّد(ة) أنّك تريد(ين) حذف هذا المستخدم؟ لن يتمّ حذف مشاركات المستخدم.'
       delete_error_message: 'إجراء حذف العضو <i>{username} ({email})</i> قد فشل'
-      delete_success_message: 'تمّ حذف العضو <i>{username} ({email})</i> بنجاح!'
+      delete_success_message: 'تمّ حذف العضو <i>{username} ({email})</i> بنجاح'
       toggle_dropdown_accessible_label: 'تبديل القائمة المنسدلة عناصر تحكّم المستخدم'
     user_email_confirmation:
       resend_button: 'إعادة إرسال البريد الإلكتروني للتّأكيد'
@@ -360,15 +374,94 @@ core:
       rate_limit_exceeded_message: 'أنت تسير بسرعة كبيرة قليلا. يرجى المحاولة مرّة أخرى بعد بضع ثوان.'
       render_failed_message: 'عذرا، لقد واجهنا خطأ أثناء عرض هذا المحتوى. إذا كنت مستخدِما، يرجى المحاولة مرّة أخرى في وقت لاحق. إذا كنت مسؤولاً، فألق نظرة على ملفات سجل فلاروم للحصول على مزيد من المعلومات.'
     meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} أخرى {{pageTitle}: الصّفحة # - {forumName}}}'
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: الصّفحة# - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {الصّفحة # - {forumName}}}'
+    modal:
+      close: إغلاق
+    nav:
+      drawer_button: 'فتح مربّع التّنقّل'
+    number_suffix:
+      kilo_text: كلغ
+      mega_text: ميغا
+    series:
+      glue_text: '، '
+      three_text: '{first}، {second} و{third}'
+      two_text: '{first} و{second}'
+    username:
+      deleted_text: '[محذوف]'
   ref:
+    all_discussions: 'كلّ المناقشات'
+    change_email: 'تغيير عنوان البريد الإلكتروني'
+    change_password: 'تغيير كلمة المرور'
+    color: اللون
+    confirm_email: 'تأكيد عنوان البريد الإلكتروني'
+    confirm_password: 'تأكيد كلمة المرور'
+    confirmation_email_sent: 'لقد قمنا بإرسال رسالة من أجل تأكيد التّسجيل بالبريد الإلكتروني إلى {email}. إذا لم تتوصّل(ي) به قريبا، فمن فضلك، يُمكنك التّحقق في علبة الرسائل غير المرغوب فيها.'
+    custom_footer_text: 'أضف رمز HTML ليتم عرضه في الجهة السّفلى من الصفحة.'
+    custom_footer_title: 'تحرير التّذييل المخصّص للصّفحة'
+    custom_header_text: 'أضف رمز HTML ليتم عرضه في أعلى الصفحة، فوق رأس فلاروم الخاص.'
+    custom_header_title: 'تحرير الرّأس المخصّص للصّفحة'
+    delete: حذف
+    delete_forever: 'الحذف نهائيّا'
+    discussions: المناقشات
+    edit: تعديل
+    edit_user: 'تحرير العضو'
+    email: 'البريد الإلكتروني'
+    extensions: الإضافات
+    icon: الأيقونة
+    icon_text: 'أدخل اسم أيّ أيقونة من أيقونات <a>FontAwesome</a>، مع <em>إضافة</em> الرّمز <code>fas fa-</code> في البادئة.'
+    load_more: 'تحميل المزيد'
+    loading: 'جارٍ التّحميل...'
     log_in: دخول
     log_out: خروج
+    mark_all_as_read: 'تحديد الكلّ كمقروءة'
     next_page: 'الصفحة التالية'
     notifications: التنبيهات
     okay: موافق
     password: 'كلمة المرور'
+    posts: المشاركات
     previous_page: 'الصفحة السابقة'
+    remove: إزالة
+    rename: 'إعادة التّسمية'
+    reply: ردّ
+    reset_your_password: 'إعادة تعيين كلمة المرور الخاصة بك'
+    restore: استعادة
     save_changes: 'حفظ التغييرات'
     settings: الاعدادات
     sign_up: تسجيل
+    start_a_discussion: 'بدء مناقشة'
+    username: 'اسم المستخدِم'
+    users: المستخدمون
+    write_a_reply: 'كتابة ردّ...'
+    you: أنت
+  views:
+    admin:
+      extensions:
+        disable: تعطيل
+        empty: 'لا توجد إضافات مثبّتة'
+        enable: تَمكين
+        name: 'اسم الإضافة'
+        package_name: 'اسم الحزمة'
+        version: الإصدار
+      info:
+        caption: 'معلومات التّطبيق'
+      title: الإدارة
+    confirm_email:
+      text: 'انقر(ي) فوق الزّرّ أدناه لتأكيد البريد الإلكتروني لحسابك.'
+    content:
+      javascript_disabled_message: 'يتمّ عرض هذا الموقع بشكل أفضل في متصفّح حديث مع تمكين JavaScript.'
+      load_error_message: 'حدث خطأ ما أثناء محاولة تحميل النسخة الكاملة لهذا الموقع. حاول تحديث هذه الصفحة مرّة أخرى لإصلاح المشكلة.'
+    error:
+      csrf_token_mismatch: 'لقد كنت غير نشط(ة) لفترة طويلة.'
+      csrf_token_mismatch_return_link: 'العودة إلى الوراء، والمحاولة مرّة أخرى'
+      invalid_confirmation_token: 'تم استخدام رابط التّأكيد هذا بالفعل أو أنّه غير صالح.'
+      not_authenticated: 'ليست لديك الصّلاحية لدخول هذه الصفحة. حاول مرّة أخرى بعد تسجيل الدّخول.'
+      not_found: 'لا يُمكن العثور على الصّفحة المطلوبة.'
+      not_found_return_link: 'العودة إلى {forum}'
+      permission_denied: 'ليست لديك الصّلاحية للوصول إلى هذه الصفحة.'
+      unknown: 'حدث خطأ أثناء محاولة تحميل هذه الصّفحة.'
+    log_out:
+      log_out_confirmation: 'هل أنت متأكّد(ة) من أنك تريد(ين) مغادرة {forum}؟'
+    reset_password:
+      confirm_password_label: 'تأكيد كلمة المرور الجديدة'
+      new_password_label: 'كلمة المرور الجديدة'
