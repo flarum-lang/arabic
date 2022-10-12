@@ -94,6 +94,7 @@ php flarum cache:clear
 | [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/blomstra-flag-duplicates/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-flag-duplicates/ar/) |
 | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/blomstra-mark-unread/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/ar/) |
 | [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/clarkwinkelmann-group-list/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-list/ar/) |
+| [`ianm/synopsis`](https://github.com/imorland/synopsis) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/ianm-synopsis/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-synopsis/ar/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ar/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/ar/) |
 
 <!-- various-extensions-list-stop -->
