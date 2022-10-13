@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+0.2.1 (2022-10-13)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+**Updated translations for extensions**:
+
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+
+
+All changes: [v0.2.0...v0.2.1](https://github.com/flarum-lang/arabic/compare/v0.2.0...v0.2.1).
+
+
 0.2.0 (2022-08-30)
 ------------------
 
