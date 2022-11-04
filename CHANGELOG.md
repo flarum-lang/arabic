@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+0.2.2 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
+All changes: [v0.2.1...v0.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v0.2.2).
+
+
 0.2.1 (2022-10-13)
 ------------------
 
