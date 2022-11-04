@@ -12,6 +12,7 @@ CHANGELOG
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
 
 
 All changes: [v0.2.1...v0.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v0.2.2).
