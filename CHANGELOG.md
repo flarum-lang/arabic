@@ -17,6 +17,9 @@ CHANGELOG
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 
 
 **Updated translations for extensions**:
