@@ -15,6 +15,13 @@ CHANGELOG
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 
 
 All changes: [v0.2.1...v0.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v0.2.2).
