@@ -5,7 +5,12 @@ CHANGELOG
 0.2.2 (XXXX-XX-XX)
 ------------------
 
-**Added support for new extensions**:
+**التّغييرات العامّة**:
+
+* ترجمات التّحقق المحدّثة.
+
+
+**دعم إضافي للإضافات الجديدة**:
 
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/approval`](https://github.com/flarum/approval)
@@ -23,12 +28,12 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 
 
-**Updated translations for extensions**:
+**ترجمات محدّثة للإضافات**:
 
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 
 
-All changes: [v0.2.1...v0.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v0.2.2).
+جميع التّغييرات: [v0.2.1...v0.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v0.2.2).
 
 
 0.2.1 (2022-10-13)
