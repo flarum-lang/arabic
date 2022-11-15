@@ -30,6 +30,7 @@ CHANGELOG
 
 **ترجمات محدّثة للإضافات**:
 
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 
 
