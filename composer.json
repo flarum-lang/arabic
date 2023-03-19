@@ -28,6 +28,7 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "Arabic",
+			"category": "language",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
