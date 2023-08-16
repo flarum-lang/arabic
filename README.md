@@ -110,6 +110,11 @@ php flarum cache:clear
 | [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/clarkwinkelmann-group-list/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-list/ar/) |
 | [`ianm/synopsis`](https://github.com/imorland/synopsis) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/ianm-synopsis/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-synopsis/ar/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/ar/) |
+| [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/ar/) |
+| [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/webbinaro-age-check/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-age-check/ar/) |
+| [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/ar/) |
+| [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/webbinaro-gpx-preview/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-gpx-preview/ar/) |
+| [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/widayn-avatar-cropper/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/widayn-avatar-cropper/ar/) |
 
 <!-- various-extensions-list-stop -->
 
