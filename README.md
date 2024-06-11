@@ -129,9 +129,9 @@ php flarum cache:clear
 
 | الإضافة | الحالة |
 | --- | --- |
-| [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/ar/) |
-| [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/ar/) |
-| [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/ar/) |
+| [`blomstra/payments`](https://flarum.org/extension/blomstra/payments) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/ar/) |
+| [`blomstra/readme`](https://flarum.org/extension/blomstra/readme) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/ar/) |
+| [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/ar/) |
 
 <!-- premium-extensions-list-stop -->
 
