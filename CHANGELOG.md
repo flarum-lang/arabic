@@ -37,7 +37,7 @@ CHANGELOG
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 * `zerosonesfun-bbcode-button`
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
-* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 
 
 **ترجمات محدّثة للإضافات**:
