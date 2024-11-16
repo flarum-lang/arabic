@@ -27,6 +27,7 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
