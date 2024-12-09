@@ -7,6 +7,7 @@ CHANGELOG
 
 **التّغييرات العامّة**:
 
+* تم تحديث ترجمات فلاروم الأساسية.
 * ترجمات التّحقق المحدّثة.
 
 
@@ -28,6 +29,9 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
