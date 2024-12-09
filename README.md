@@ -112,6 +112,8 @@ php flarum cache:clear
 | [`ianm/synopsis`](https://github.com/imorland/synopsis) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/ianm-synopsis/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-synopsis/ar/) |
 | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/irmmr-rtl/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/irmmr-rtl/ar/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/ar/) |
+| [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/krombox-oauth-wordpress/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/krombox-oauth-wordpress/ar/) |
+| [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/kyrne-evergreen/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kyrne-evergreen/ar/) |
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/ar/) |
 | [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/webbinaro-age-check/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-age-check/ar/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/ar/) |
@@ -133,6 +135,7 @@ php flarum cache:clear
 | --- | --- |
 | [`blomstra/payments`](https://flarum.org/extension/blomstra/payments) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/ar/) |
 | [`blomstra/readme`](https://flarum.org/extension/blomstra/readme) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/ar/) |
+| [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/kilowhat-wordpress/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress/ar/) |
 | [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/ar/) |
 
 <!-- premium-extensions-list-stop -->
