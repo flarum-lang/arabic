@@ -2,6 +2,60 @@ CHANGELOG
 =========
 
 
+0.2.2 (XXXX-XX-XX)
+------------------
+
+**التّغييرات العامّة**:
+
+* تم تحديث ترجمات فلاروم الأساسية.
+* ترجمات التّحقق المحدّثة.
+
+
+**دعم إضافي للإضافات الجديدة**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+* `zerosonesfun-bbcode-button`
+* [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
+
+
+**ترجمات محدّثة للإضافات**:
+
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+
+
+جميع التّغييرات: [v0.2.1...v0.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v0.2.2).
+
+
 0.2.1 (2022-10-13)
 ------------------
 
