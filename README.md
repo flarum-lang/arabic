@@ -74,6 +74,7 @@ php flarum cache:clear
 
 | الإضافة | الحالة |
 | --- | --- |
+| [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/fof-synopsis/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-synopsis/ar/) |
 
 <!-- fof-extensions-list-stop -->
 
@@ -109,7 +110,6 @@ php flarum cache:clear
 | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/blomstra-mark-unread/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/ar/) |
 | [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/clarkwinkelmann-group-list/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-list/ar/) |
 | [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/gtdxyz-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/gtdxyz-badges/ar/) |
-| [`ianm/synopsis`](https://github.com/imorland/synopsis) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/ianm-synopsis/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-synopsis/ar/) |
 | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/irmmr-rtl/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/irmmr-rtl/ar/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/ar/) |
 | [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum/ar/krombox-oauth-wordpress/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/krombox-oauth-wordpress/ar/) |
