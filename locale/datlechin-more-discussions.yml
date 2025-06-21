@@ -2,11 +2,9 @@
 # Use https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/ar/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-flarum-statistics:
+datlechin-more-discussions:
     admin:
-        date_selection_modal:
-            submit_button: 'تأكيد نطاق التاريخ'
-        statistics:
-            discussions_heading: مواضيع
-            loading: تحميل...
-            posts_heading: مشاركات
+        settings:
+            discussion_related_label: 'النتائج ذات الصلة'
+    forum:
+        block_default_name: 'أحدث المواضيع'
