@@ -1,3 +1,7 @@
+> **This language pack is searching for a maintainer!**
+>
+> This language pack is maintained by the community. Anyone can translate through [Weblate](https://weblate.rob006.net/languages/ar/flarum/) and no one verifies contributed translations. If you want to help maintain this package, you can contact us in [this discussion](https://discuss.flarum.org/d/27519-the-flarum-language-project).
+
 # Arabic language pack for [Flarum](https://flarum.org/)
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/arabic?color=success&label=stable)](https://packagist.org/packages/flarum-lang/arabic) 
@@ -14,7 +18,7 @@ This language pack contains Arabic translations for Flarum (compatible with `1.3
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/arabic
+composer require flarum-lang/arabic:dev-master
 ```
 
 Then enable extension in admin panel of your Flarum.
