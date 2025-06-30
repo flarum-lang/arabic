@@ -4,4 +4,10 @@
 
 acpl-mobile-tab:
   forum:
+    all_discussions: المواضيع
+    categories: التصنيفات
     home: الرّئيسيّة
+    log_in: 'تسجيل الدخول'
+    notifications: الإشعارات
+    profile: 'الملفّ الشّخصيّ'
+    tags: الأقسام

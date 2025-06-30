@@ -3,4 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 validation:
-  accepted: 'يجب قبول الـ :atribute.'
+  accepted: 'يجب قبول :attribute'
+  attributes:
+    email: 'البريد الإلكتروني'
+    password: 'كلمة المرور'
+  confirmed: 'لا يتطابق تأكيد :attribute.'
+  email: 'يجب أن يكون :attribute عنوان بريد إلكتروني صالحًا.'
+  mimes: 'يجب أن يكون :attribute ملفًا من نوع: :values.'
+  mimetypes: 'يجب أن يكون :attribute ملفًا من نوع: :values.'
+  password: 'كلمة المرور غير صحيحة.'
+  required: 'حقل :attribute مطلوب.'

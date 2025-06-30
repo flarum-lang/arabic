@@ -20,6 +20,6 @@ fof-synopsis:
   forum:
     user:
       settings:
-        show-summaries: 'عرض مقتطف من كلّ مناقشة في قوائم المناقشة (سطح المكتب/الجهاز اللوحي)'
-        show-summaries-mobile: 'عرض مقتطف من كلّ مناقشة في قوائم المناقشات (الجوال)'
-        summaries-heading: الملخّص
+        show-summaries: 'عرض مقتطف من كل موضوع اسفل العنوان الرئيسي (اجهزة سطح المكتب/الكمبيوتر اللوحي)'
+        show-summaries-mobile: 'عرض مقتطف من كل موضوع اسفل العنوان الرئيسي (الجوال)'
+        summaries-heading: 'ملخص المواضيع'

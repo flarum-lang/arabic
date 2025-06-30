@@ -10,20 +10,20 @@ flarum-statistics:
       errors:
         end_before_start: 'يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء.'
       start_date: 'تاريخ البدء (شامل)'
-      submit_button: 'تأكيد النطاق الزمني'
+      submit_button: 'تأكيد نطاق التاريخ'
       title: 'اختيار نطاق زمني مخصص'
     statistics:
       current_period: 'الفترة الحالية'
       custom_label: 'اختر نطاقًا مخصّصًا ...'
       custom_label_specified: '{fromDate} إلى {toDate}'
-      discussions_heading: '=> core.ref.discussions'
+      discussions_heading: مواضيع
       last_12_months_label: 'آخر 12 شهرا'
       last_28_days_label: 'آخر 28 يوما'
       last_7_days_label: 'آخر 7 أيّام'
-      loading: '=> core.ref.loading'
+      loading: تحميل...
       mini_heading: 'إحصائيّات المُنتدى'
       no_data: 'لا توجد بيانات متاحة لهذا النّطاق الزّمنيّ.'
-      posts_heading: '=> core.ref.posts'
+      posts_heading: مشاركات
       previous_28_days_label: '28 يومًا السابقة'
       previous_7_days_label: '7 أيّام السّابقة'
       previous_period: 'الفترة السّابقة'
