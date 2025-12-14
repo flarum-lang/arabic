@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-0.2.2 (XXXX-XX-XX)
+1.2.2 (XXXX-XX-XX)
 ------------------
 
 **التّغييرات العامّة**:
@@ -91,7 +91,7 @@ CHANGELOG
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 
 
-جميع التّغييرات: [v0.2.1...v0.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v0.2.2).
+جميع التّغييرات: [v0.2.1...v1.2.2](https://github.com/flarum-lang/arabic/compare/v0.2.1...v1.2.2).
 
 
 0.2.1 (2022-10-13)
