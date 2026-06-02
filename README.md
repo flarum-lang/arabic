@@ -111,6 +111,7 @@ php flarum cache:clear
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/ar/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/ar/) |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/ar/) |
 | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/datlechin-copy-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links/ar/) |
 | [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/datlechin-more-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-more-discussions/ar/) |
 | [`ianm/follow-users`](https://github.com/imorland/follow-users) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/ianm-follow-users/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/ianm-follow-users/ar/) |
