@@ -81,6 +81,7 @@ php flarum cache:clear
 
 | الإضافة | الحالة |
 | --- | --- |
+| [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/ar/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/ar/) |
 | [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/fof-discussion-templates/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-discussion-templates/ar/) |
 | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) | [![حالة التّرجمة](https://weblate.rob006.net/widgets/flarum2/ar/fof-drafts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-drafts/ar/) |
