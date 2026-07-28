@@ -80,7 +80,7 @@ CHANGELOG
 * [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
-* `zerosonesfun-bbcode-button`
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 * [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 
