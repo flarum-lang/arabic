@@ -5,13 +5,13 @@ CHANGELOG
 1.0.0 (XXXX-XX-XX)
 ------------------
 
-**التّغييرات العامّة**:
+**General changes**:
 
-* تم تحديث ترجمات فلاروم الأساسية.
-* ترجمات التّحقق المحدّثة.
+* Updated Flarum core translations (146 added, 83 changed).
+* Updated validation translations (9 added).
 
 
-**دعم إضافي للإضافات الجديدة**:
+**Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
@@ -85,15 +85,15 @@ CHANGELOG
 * [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 
 
-**ترجمات محدّثة للإضافات**:
+**Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
-* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
-* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
-* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (6 added)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings) (31 added)
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) (1 changed)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (9 added, 2 changed)
 
 
-جميع التّغييرات: [v0.2.1...v1.0.0](https://github.com/flarum-lang/arabic/compare/v0.2.1...v1.0.0).
+All changes: [v0.2.1...1.0.0](https://github.com/flarum-lang/arabic/compare/v0.2.1...1.0.0).
 
 
 0.2.1 (2022-10-13)
