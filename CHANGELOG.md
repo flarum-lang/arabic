@@ -5,13 +5,13 @@ CHANGELOG
 2.0.0 (XXXX-XX-XX)
 ------------------
 
-**التّغييرات العامّة**:
+**General changes**:
 
-* تمت إزالة ترجمات Flarum الأساسية القديمة (الإصدار `2.0` أو أعلى منه مدعوم).
-* تمت إزالة ترجمات التّحقق التي عفا عليها الزمن (الإصدار `2.0` أو أعلى منه مدعوم).
+* Updated Flarum core translations (142 added, 76 changed, 20 removed).
+* Updated validation translations (3 added).
 
 
-**دعم إضافي للإضافات الجديدة**:
+**Added support for new extensions**:
 
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
@@ -57,15 +57,12 @@ CHANGELOG
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 
 
-**تحديث و/أو إزالة التّرجمات القديمة للإضافات**:
+**Updated translations for extensions**:
 
-* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
-* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
-* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
-* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (9 added, 2 changed)
 
 
-**تمّ إزالة الدّعم للإضافات التي عفا عليها الزّمن**:
+**Removed support for outdated extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
@@ -95,7 +92,7 @@ CHANGELOG
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
-جميع التّغييرات: [v0.2.1...v2.0.0](https://github.com/flarum-lang/arabic/compare/v0.2.1...v2.0.0).
+All changes: [v0.2.1...2.0.0](https://github.com/flarum-lang/arabic/compare/v0.2.1...2.0.0).
 
 
 0.2.1 (2022-10-13)
